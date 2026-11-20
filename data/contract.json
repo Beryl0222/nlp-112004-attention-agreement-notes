@@ -1,0 +1,73 @@
+{
+  "activities": {
+    "columns": {
+      "id": "string",
+      "application": "string",
+      "aliases": "array",
+      "possiblePurposes": "array"
+    },
+    "links": {}
+  },
+  "pools": {
+    "columns": {
+      "id": "string",
+      "label": "string",
+      "minutes": "integer",
+      "memberActivity": "array",
+      "dayBoundary": "string",
+      "recharge": "string"
+    },
+    "links": {
+      "memberActivity": "activities"
+    }
+  },
+  "notes": {
+    "columns": {
+      "id": "string",
+      "who": "string",
+      "at": "string",
+      "respondsTo": "string?",
+      "utterance": "string"
+    },
+    "links": {
+      "respondsTo": "notes"
+    }
+  },
+  "timeline": {
+    "columns": {
+      "id": "string",
+      "activity": "string",
+      "window": "string",
+      "start": "string",
+      "end": "string",
+      "hint": "string"
+    },
+    "links": {
+      "activity": "activities"
+    }
+  },
+  "clarifications": {
+    "columns": {
+      "id": "string",
+      "entry": "string",
+      "at": "string",
+      "text": "string"
+    },
+    "links": {
+      "entry": "timeline"
+    }
+  },
+  "reminders": {
+    "columns": {
+      "id": "string",
+      "at": "string",
+      "entry": "string",
+      "notes": "array",
+      "display": "string"
+    },
+    "links": {
+      "entry": "timeline",
+      "notes": "notes"
+    }
+  }
+}

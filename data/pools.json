@@ -1,0 +1,25 @@
+[
+  {
+    "id": "k1",
+    "label": "随手看",
+    "minutes": 20,
+    "memberActivity": [
+      "v",
+      "m",
+      "p"
+    ],
+    "dayBoundary": "04:00",
+    "recharge": "每日边界重置"
+  },
+  {
+    "id": "k2",
+    "label": "短休",
+    "minutes": 15,
+    "memberActivity": [
+      "g",
+      "v"
+    ],
+    "dayBoundary": "04:00",
+    "recharge": "每日边界重置"
+  }
+]

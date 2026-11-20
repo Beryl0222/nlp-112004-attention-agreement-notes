@@ -1,0 +1,56 @@
+[
+  {
+    "id": "v",
+    "application": "卷页",
+    "aliases": [
+      "拉片",
+      "看视频",
+      "录屏"
+    ],
+    "possiblePurposes": [
+      "作业",
+      "随手看",
+      "查资料"
+    ]
+  },
+  {
+    "id": "m",
+    "application": "纸鸽",
+    "aliases": [
+      "群聊",
+      "催件",
+      "找人"
+    ],
+    "possiblePurposes": [
+      "等快递",
+      "联系家人",
+      "随手看"
+    ]
+  },
+  {
+    "id": "p",
+    "application": "风筝页",
+    "aliases": [
+      "课程页",
+      "推荐区",
+      "评论"
+    ],
+    "possiblePurposes": [
+      "作业",
+      "随手看",
+      "查资料"
+    ]
+  },
+  {
+    "id": "g",
+    "application": "沉屿",
+    "aliases": [
+      "小游戏",
+      "闯关"
+    ],
+    "possiblePurposes": [
+      "放松",
+      "查资料"
+    ]
+  }
+]
